@@ -1,0 +1,10 @@
+powershell.exe -ExecutionPolicy ByPass .\ConfigureRemotingForAnsible.ps1
+
+
+次のコマンドで確認
+winrm enumerate winrm/config/Listener
+
+
+
+Github matsuo
+https://github.com/yuichi109/ps1/blob/main/ConfigureRemotingForAnsible.ps1
